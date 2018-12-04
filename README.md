@@ -25,3 +25,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+Copyright (c) 2018 MXProgrammingClub and its members
+Licensed under the BSD 3 Clause
