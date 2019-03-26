@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  assigneddate: 2019-03-26 14:53:06
+  duedate: 2019-03-26 14:53:06
+  type: 
+  details: MyText
+  completed: 
+  course: one
+
+two:
+  name: MyString
+  assigneddate: 2019-03-26 14:53:06
+  duedate: 2019-03-26 14:53:06
+  type: 
+  details: MyText
+  completed: 
+  course: two
