@@ -11,4 +11,7 @@ This document is not yet complete, but these are the standards we have establish
 - All ruby files that are not automatically generated should include a block comment at the top of the file specifying the purpose of the file, all authors of the file, the creation date, and the date of the last modification.
 - Use snake_case for methods and variables.
 - Use CamelCase for classes and modules.
-- Use double quotes for strings in all cases.
+- Use double quotes for string literals unless automatically generated.
+
+## Style Guide for Embedded Ruby Files
+- All embedded ruby files should include a block comment at the top of the file specifying the purpose of the file, all authors of the file, the creation date, the date of the last modification, and an example context.
