@@ -1,3 +1,10 @@
+# This is the Controller for the Course model.
+#
+# Authors:
+#   Jeremiah DeGreeff
+# Created on 1/29/2019
+# Last Modified 4/9/2019
+
 class CoursesController < ApplicationController
   def index
     @courses = Course.all
@@ -20,7 +27,7 @@ class CoursesController < ApplicationController
     if @course.save
       redirect_to @course
     else
-      render 'new'
+      render "new"
     end
   end
 
@@ -29,7 +36,7 @@ class CoursesController < ApplicationController
     if @course.update(course_params)
       redirect_to @course
     else
-      render 'edit'
+      render "edit"
     end
   end
 
